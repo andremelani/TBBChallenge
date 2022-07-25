@@ -1,0 +1,85 @@
+.header {
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  background-color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px var(--shadow-color);
+  z-index: 5;
+
+  @media (max-width: 768px) {
+    position: fixed;
+    height: 70px;
+  }
+
+  img {
+
+    @media(max-width:768px) {
+        width: 124px;
+    }
+  }
+
+  .menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .icon {
+      display: none;
+
+      @media (max-width: 768px) {
+        display: block;
+        width: 24px;
+      }
+    }
+  }
+
+  .search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    img {
+      width: 24px;
+    }
+  }
+}
+@keyframes slide {
+    from {margin-left: -100vw;}
+    to {margin-left: 0;}
+  }
+
+.container {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  animation-name: slide;
+  animation-duration: .5s;
+
+
+  .background {
+    background-color: var(--blue-color);
+    list-style: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 54px;
+    padding: 55px 40px 124px 40px;
+    overflow: auto;
+    z-index: 10;
+
+    li {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 48px;
+
+      a {
+        color: var(--white-color);
+        font-weight: bold;
+        font-size: 1rem;
+      }
+    }
+  }
+}

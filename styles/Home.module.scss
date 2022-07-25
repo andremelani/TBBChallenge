@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+  display: block;
+  width: 100%;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.backgroundMobile {
+  display: none;
+
+  @media (max-width: 768px) {
+    display: block;
+    width: 100%;
+    margin-top: 70px;
+  }
+}
+
+.backgroundIcons {
+  display: block;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.cardList {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+
+  @media (max-width:768px) {
+    margin-bottom: 0px;
+  }
+}

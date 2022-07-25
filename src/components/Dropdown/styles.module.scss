@@ -1,0 +1,86 @@
+.aboutDropdown {
+  width: 100%;
+  position: absolute;
+  top: 130px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  background-color: var(--gray-color);
+  padding: 0 15vw;
+  margin-left: 439px;
+
+  li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 52px;
+
+    a {
+      color: var(--white-color);
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  }
+
+}
+
+
+
+
+.productsDropdown {
+    width: 100%;
+    position: absolute;
+    top: 130px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    background-color: var(--gray-color);
+    padding: 0 15vw;
+    margin-left: 146px;
+
+    li {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 52px;
+    
+        a {
+          color: var(--white-color);
+          font-weight: bold;
+          font-size: 1rem;
+        }
+      }
+  }
+
+  .intimateDropdown {
+    width: 100%;
+    position: absolute;
+    top: 130px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    background-color: var(--gray-color);
+    padding: 0 15vw;
+    margin-right: 194px;
+
+    li {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 52px;
+    
+        a {
+          color: var(--white-color);
+          font-weight: bold;
+          font-size: 1rem;
+        }
+      }
+  }
+
+
+.aboutDropdownClicked {
+  display: none;
+}

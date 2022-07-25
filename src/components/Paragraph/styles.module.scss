@@ -1,0 +1,13 @@
+.paragraph {
+    color: var(--gray-color);
+    font-size: 20px;
+    text-align: center;
+    width: 40%;
+    margin-bottom: 40px;
+
+    @media (max-width:768px) {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+}

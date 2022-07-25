@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+ 
+
+    .navbarDesktop {
+      display: block;
+      width: 100%;
+
+      @media (max-width:768px) {
+        display: none;
+      }
+    }
+
+    .navbarMobile {
+      display: none;
+
+      @media (max-width:768px) {
+        display: block;
+        width: 100%;
+      }
+    }
+  }

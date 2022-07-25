@@ -1,0 +1,28 @@
+:root {
+  --white-color : #ffffff;
+  --blue-color : #389CD6;
+  --gray-color : #7B7070;
+  --green-color : #309D5F;
+  --red-color : #EE6381;
+  --shadow-color : #00000014;
+}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
